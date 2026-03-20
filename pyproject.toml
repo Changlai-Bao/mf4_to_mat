@@ -1,0 +1,9 @@
+[project]
+name = "mf4-to-mat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asammdf[gui]>=8.7.2",
+]
