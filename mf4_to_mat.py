@@ -4,8 +4,8 @@ from asammdf import MDF
 
 def convert_mf4_to_mat():
     # Relative Pfade zu den Ordnern definieren (basierend auf der Projektstruktur)
-    input_dir = Path("Messdaten_mf4/18.03.2026")
-    output_dir = Path("Messdaten_mat/18.03.2026")
+    input_dir = Path("Messdaten_mf4/20.03.2026")
+    output_dir = Path("Messdaten_mat/20.03.2026")
 
     # Überprüfen, ob der Eingangsordner existiert
     if not input_dir.exists():
